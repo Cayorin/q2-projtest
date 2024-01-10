@@ -1,0 +1,138 @@
+
+body {
+	background-image:url(https://www.myglobalviewpoint.com/wp-content/uploads/2023/09/Most-Beautiful-Places-in-Luzon.jpg);
+	background-attachment:fixed;
+}
+
+.section2 {
+	margin:3px;
+	border:4px solid black;
+	background-color:lightblue;
+	color:white;
+}
+.container2 {  
+	display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1em 1em;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "blank text blank2";
+}
+
+.blank { 
+	grid-area: blank; 
+}
+
+.blank2 { 
+	grid-area: blank2; 
+}
+
+.text { 	
+	margin:3px;
+	font-size: 15px;
+	font-family: Roboto, Arial, sans-serif;
+	color:white;
+	border:4px solid black;
+	margin:5px;
+	padding:5px;
+	display:inline-block;
+	text-align:center;
+	justify-content: center;
+	height: 200px;
+  width: 525px;
+	background: rgb(23,23,159);
+	background: linear-gradient(90deg, rgba(23,23,159,0.6498248957786239) 0%, rgba(249,255,12,0.6666316184676996) 47%, rgba(255,0,0,0.7198529069831057) 100%);
+}
+
+.title {
+	font-size: 35px;
+	font-family: Roboto, Arial, sans-serif;
+	text-align:center;
+	text-shadow: 3px 3px 2px rgba(0, 0, 0, 1);
+	color:white;
+}
+
+.sorhd {
+	color:yellow;
+	font-family: 'Noto Sans Tagalog', sans-serif;
+}
+
+.bghd {
+	color:red;
+	font-family: 'Noto Sans Tagalog', sans-serif;
+}
+
+.font1 {	
+	font-family: 'Diphylleia', serif;
+	color:white;
+}
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px 1em;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "place3 place2-desc place1"
+    "place3-desc place2 place1-desc";
+}
+
+.place2-desc { 
+			grid-area: place2-desc; 
+			border: 5px solid #0096c7;
+			text-align:center;
+			justify-content: center;
+			margin-top:5px;
+			background-color:#0096c7; 
+}
+
+.place2 { 
+			grid-area: place2;
+			margin-top:5px; 
+			background: #00c1ff;
+			text-align:center;
+			margin-bottom: 10px;
+			background: linear-gradient(114deg,#00c1ff 0%, #ffffff 40%, #00c1ff 80%);
+			background: -webkit-linear-gradient(114deg,#00c1ff 0%, #ffffff 40%, #00c1ff 80%);
+			background: -moz-linear-gradient(114deg,#00c1ff 0%, #ffffff 40%, #00c1ff 80%);
+		}
+
+.place3 { 
+			grid-area: place3; 
+			margin-top:5px;
+			text-align:center;
+			background: #00c1ff;
+			background: linear-gradient(114deg,#00c1ff 0%, #ffffff 40%, #00c1ff 80%);
+			background: -webkit-linear-gradient(114deg,#00c1ff 0%, #ffffff 40%, #00c1ff 80%);
+			background: -moz-linear-gradient(114deg,#00c1ff 0%, #ffffff 40%, #00c1ff 80%);
+}
+
+.place3-desc { 
+			grid-area: place3-desc; 
+			border: 5px solid #0096c7; 
+			text-align:center;
+			justify-content: center;
+			margin-top:5px;
+			margin-bottom: 10px;
+			background-color:#0096c7; 
+		}
+
+.place1 { 
+			grid-area: place1; 
+			margin-top:5px;background: #00c1ff;
+			text-align:center;
+			background: linear-gradient(114deg,#00c1ff 0%, #ffffff 40%, #00c1ff 80%);
+			background: -webkit-linear-gradient(114deg,#00c1ff 0%, #ffffff 40%, #00c1ff 80%);
+			background: -moz-linear-gradient(114deg,#00c1ff 0%, #ffffff 40%, #00c1ff 80%);
+		}
+
+.place1-desc { 
+			grid-area: place1-desc; 
+			margin-top:5px;
+			text-align:center;
+			margin-bottom: 10px;
+			align-content: center;
+			justify-content: center;
+			border: 5px solid #0096c7; 
+			background-color:#0096c7; 
+		}
